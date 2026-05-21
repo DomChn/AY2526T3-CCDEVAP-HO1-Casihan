@@ -1,0 +1,133 @@
+.title-tab {
+	background-color: beige;
+	display: flex;
+	padding: 10px;
+	width: 100%;
+	justify-content: space-between;
+	box-sizing: border-box;
+	align-items: center;
+}
+
+.title-text {
+	color: darkgoldenrod;
+	font-family: "Garamond", "Georgia";
+	font-size: 30px;
+	font-weight: bold;
+	font-variant: small-caps;
+	margin: 0;
+}
+
+.nav-item a {
+	color: darkgoldenrod;
+	font-family: "Garamond";
+	font-size: 25px;
+	margin-left: 20px;
+}
+
+.normal-text p, .big-text p, #introduction p {
+	font-family: "Garamond";
+}
+
+.normal-text p {
+	font-size: 25
+}
+
+h1.big-text {
+	color: darkkhaki;
+	font-family: "Garamond";
+	font-size: 100px;
+	font-weight: 500;
+	font-variant: small-caps;
+	text-align: center;
+}
+
+.images {
+	border: 3px solid khaki;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+span.highlight {
+	color: goldenrod;
+}
+
+.section-title, .sections h3, .song, .rel-link {
+	color: darkgoldenrod;
+	font-family: "Garamond";
+	font-size: 30px;
+	font-weight: bold;
+	font-variant: small-caps;
+}
+
+.section-title {
+	background-color: floralwhite;
+}
+
+#index-content {
+	background-color: floralwhite;
+	display: flex;
+	padding: 30px;
+	width: 100%;
+	justify-content: space-between;
+	box-sizing: border-box;
+	align-items:center;
+	gap: 50px;
+}
+
+#interests-content, #contact-content{
+	background-color: floralwhite;
+}
+
+#introduction {
+	color: goldenrod;
+	font-size: 35px;
+	text-align: justify;
+}
+
+#hobbies {
+	font-size: 30px;
+	font-family: "Garamond";
+}
+
+#games, #music, #clips {
+	display: flex;
+	padding: 30px;
+	width: 100%;
+	justify-content: space-evenly;
+	box-sizing: border-box;
+	align-items: center;
+	gap: 50px;
+	background-color: floralwhite;
+}
+
+#info {
+	width: 450px;
+	height: 50px;
+	border-collapse: collapse;
+}
+
+#info th, #contact th{
+	color: darkkhaki;
+	font-size: 30px;
+	font-family: "Garamond";
+	border: 3px solid khaki;
+	padding: 10px;
+}
+
+#info tr, td {
+	color: goldenrod;
+	font-family: "Garamond";
+	text-align: center;
+	font-size: 25px;
+}
+
+ #contact tr, td {
+	color: goldenrod;
+	font-size: 25px;
+	font-family: "Garamond";
+	text-align: center;
+}
+
+#contact {
+	width=100%;
+}
